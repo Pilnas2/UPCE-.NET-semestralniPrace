@@ -25,14 +25,23 @@ namespace Timer
         {
             currentTime = countDown ? currentTime -= Time.deltaTime : currentTime += Time.deltaTime;
             timerText.text = "Your current Time: " + currentTime.ToString("0.000");
+            if (player.Kill())
+            {
+                Debug.Log("Timer stopped at " + TimeToString(StopTimer()));
 
-
+            }
             //StopTimer();
         }
         float StopTimer()
         {
             countDown = false;
             return currentTime;
+        }
+        string TimeToString(float t)
+        {
+            string minutes = ((int)t / 60).ToString();
+            string seconds = (t % 60).ToString("f2");
+            return minutes + ":" + seconds;
         }
         //float StopTimer()
         //{
