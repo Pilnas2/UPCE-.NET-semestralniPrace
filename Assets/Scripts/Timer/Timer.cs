@@ -25,11 +25,6 @@ namespace Timer
         {
             currentTime = countDown ? currentTime -= Time.deltaTime : currentTime += Time.deltaTime;
             timerText.text = "Your current Time: " + currentTime.ToString("0.000");
-            if (player.Kill())
-            {
-                Debug.Log("Timer stopped at " + TimeToString(StopTimer()));
-
-            }
             //StopTimer();
         }
         float StopTimer()
