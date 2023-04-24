@@ -56,13 +56,19 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Controller\UI\HUDController.cs" />
+    <Compile Include="Assets\Scripts\Controller\UI\TimerRenderer.cs" />
     <Compile Include="Assets\Scripts\Controller\Kulicka\Respawner.cs" />
     <Compile Include="Assets\Scripts\Menu\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\Menu\SortText.cs" />
     <Compile Include="Assets\Scripts\Controller\Platforms.cs" />
+    <Compile Include="Assets\Scripts\Controller\Level\LevelTimer.cs" />
     <Compile Include="Assets\Scripts\Controller\Kulicka\PlayerEntity.cs" />
+    <Compile Include="Assets\Scripts\Menu\GetText.cs" />
     <Compile Include="Assets\Scripts\Controller\Kulicka\KulickaController.cs" />
     <Compile Include="Assets\Scripts\Controller\Level\LevelController.cs" />
     <Compile Include="Assets\Scripts\Timer\Timer.cs" />
+    <Compile Include="Assets\Scripts\Controller\UI\TimerCountDownRenderer.cs" />
     <Compile Include="Assets\Scripts\Controller\Tag.cs" />
     <Compile Include="Assets\Scripts\Controller\Camera\KulickaCamera.cs" />
   </ItemGroup>

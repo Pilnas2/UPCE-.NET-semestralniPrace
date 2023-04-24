@@ -344,9 +344,15 @@
 "Assets/Scripts/Controller/Kulicka/PlayerEntity.cs"
 "Assets/Scripts/Controller/Kulicka/Respawner.cs"
 "Assets/Scripts/Controller/Level/LevelController.cs"
+"Assets/Scripts/Controller/Level/LevelTimer.cs"
 "Assets/Scripts/Controller/Platforms.cs"
 "Assets/Scripts/Controller/Tag.cs"
+"Assets/Scripts/Controller/UI/HUDController.cs"
+"Assets/Scripts/Controller/UI/TimerCountDownRenderer.cs"
+"Assets/Scripts/Controller/UI/TimerRenderer.cs"
+"Assets/Scripts/Menu/GetText.cs"
 "Assets/Scripts/Menu/MenuManager.cs"
+"Assets/Scripts/Menu/SortText.cs"
 "Assets/Scripts/Timer/Timer.cs"
 -langversion:9.0
 

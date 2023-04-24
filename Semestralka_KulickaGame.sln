@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFolder", "MyFolder.csproj", "{C394AB66-C7C5-55E8-6B95-571A53AAFD1D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kulicka", "Kulicka.csproj", "{83B1EDA0-BAEC-8CB0-355B-880C903C80A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFolder", "MyFolder.csproj", "{C394AB66-C7C5-55E8-6B95-571A53AAFD1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KulickaInputs", "KulickaInputs.csproj", "{C50EAEF4-72E2-3F1A-E912-0A66301EAE36}"
 EndProject
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C394AB66-C7C5-55E8-6B95-571A53AAFD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C394AB66-C7C5-55E8-6B95-571A53AAFD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C394AB66-C7C5-55E8-6B95-571A53AAFD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C394AB66-C7C5-55E8-6B95-571A53AAFD1D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{83B1EDA0-BAEC-8CB0-355B-880C903C80A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{83B1EDA0-BAEC-8CB0-355B-880C903C80A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83B1EDA0-BAEC-8CB0-355B-880C903C80A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83B1EDA0-BAEC-8CB0-355B-880C903C80A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C394AB66-C7C5-55E8-6B95-571A53AAFD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C394AB66-C7C5-55E8-6B95-571A53AAFD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C394AB66-C7C5-55E8-6B95-571A53AAFD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C394AB66-C7C5-55E8-6B95-571A53AAFD1D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C50EAEF4-72E2-3F1A-E912-0A66301EAE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C50EAEF4-72E2-3F1A-E912-0A66301EAE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C50EAEF4-72E2-3F1A-E912-0A66301EAE36}.Release|Any CPU.ActiveCfg = Release|Any CPU

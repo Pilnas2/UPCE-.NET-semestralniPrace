@@ -2,12 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class MenuManager : MonoBehaviour
 {
     public void btnStart()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void btnRecord()
+    {
+        string filePath = Application.dataPath + "gameTimes.txt";
+        if (File.Exists(filePath))
+        {
+            string fileContent = File.ReadAllText(filePath);
+            Debug.Log("Obsah souboru gameTimes:\n" + fileContent);
+        }
+        else
+        {
+            Debug.LogError("Soubor gameTimes neexistuje.");
+        }
     }
     public void btnExit()
     {
