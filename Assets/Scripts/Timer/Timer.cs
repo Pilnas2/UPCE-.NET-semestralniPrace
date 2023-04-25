@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using Kulicka;
 using System.IO;
 using System;
+using UnityEngine.SceneManagement;
 
 namespace Timer
 {
@@ -19,13 +20,16 @@ namespace Timer
         public float currentTime;
         public bool countDown;
         private bool _isPaused = true;
+        Scene m_Scene;
+        string sceneName;
 
         public void Pause() => _isPaused = false;
 
 
         public void Start()
         {
-
+            m_Scene = SceneManager.GetActiveScene();
+            sceneName = m_Scene.name;
         }
         private void Update()
         {
@@ -44,7 +48,7 @@ namespace Timer
         void ukladani()
         {
             string cas = currentTime.ToString();
-            string level = "Level 1";
+            string level = sceneName;
             DateTime now = DateTime.Now;
             string timeString = now.ToString("yyyy-MM-dd HH:mm:ss");
             string folderPath = @"C:\Users\marti\Semestralka_KulickaGame\Assets\StreamingAssets\Recall_Chat";
