@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\Menu\MenuManager.cs" />
     <Compile Include="Assets\Scripts\Menu\SortText.cs" />
     <Compile Include="Assets\Scripts\Controller\Platforms.cs" />
+    <Compile Include="Assets\Scripts\Menu\Scrolling.cs" />
     <Compile Include="Assets\Scripts\Controller\Level\LevelTimer.cs" />
     <Compile Include="Assets\Scripts\Controller\Kulicka\PlayerEntity.cs" />
     <Compile Include="Assets\Scripts\Menu\GetText.cs" />

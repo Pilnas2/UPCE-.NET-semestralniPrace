@@ -6,11 +6,10 @@ using System.IO;
 
 public class MenuManager : MonoBehaviour
 {
-    public void btnStart()
+    public void Level1()
     {
         SceneManager.LoadScene(0);
     }
-
     public void btnRecord()
     {
         string filePath = Application.dataPath + "gameTimes.txt";

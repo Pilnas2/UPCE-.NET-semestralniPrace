@@ -1,0 +1,4 @@
+YT tutoriál na vytvoření základních funkionalit hry- 
+YT tutoriál na vytvoření menu-
+ukládání/načítání časů- vlastní tvorba
+Timer class- vlastní tvorba
