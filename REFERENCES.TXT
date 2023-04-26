@@ -1,4 +1,6 @@
-YT tutoriál na vytvoření základních funkionalit hry- 
-YT tutoriál na vytvoření menu-
+YT tutoriál na vytvoření základních funkionalit hry- https://www.youtube.com/watch?v=oOPBUZyjEU8&t=10613s
+YT tutoriál na vytvoření menu- https://www.youtube.com/watch?v=7vCTolboVX4&t=44s
 ukládání/načítání časů- vlastní tvorba
 Timer class- vlastní tvorba
+YT tutoriál na pause menu - https://www.youtube.com/watch?v=JivuXdrIHK0
+scény levelů - vlastní tvorba
