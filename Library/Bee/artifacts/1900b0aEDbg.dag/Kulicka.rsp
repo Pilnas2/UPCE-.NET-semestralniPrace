@@ -346,6 +346,7 @@
 "Assets/Scripts/Controller/Level/LevelController.cs"
 "Assets/Scripts/Controller/Level/LevelTimer.cs"
 "Assets/Scripts/Controller/Platforms.cs"
+"Assets/Scripts/Controller/Platforms/MovingPlatform.cs"
 "Assets/Scripts/Controller/Tag.cs"
 "Assets/Scripts/Controller/UI/HUDController.cs"
 "Assets/Scripts/Controller/UI/TimerCountDownRenderer.cs"

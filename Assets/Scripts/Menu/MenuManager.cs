@@ -14,6 +14,11 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
+    public void Level3()
+    {
+        SceneManager.LoadScene(3);
+    }
     public void btnRecord()
     {
         string filePath = Application.dataPath + "gameTimes.txt";
