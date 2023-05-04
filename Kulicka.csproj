@@ -70,7 +70,6 @@
     <Compile Include="Assets\Scripts\Controller\Kulicka\KulickaController.cs" />
     <Compile Include="Assets\Scripts\Controller\Level\LevelController.cs" />
     <Compile Include="Assets\Scripts\Timer\Timer.cs" />
-    <Compile Include="Assets\Scripts\Controller\UI\TimerCountDownRenderer.cs" />
     <Compile Include="Assets\Scripts\Controller\Tag.cs" />
     <Compile Include="Assets\Scripts\Controller\Camera\KulickaCamera.cs" />
     <Compile Include="Assets\Scripts\Controller\Platforms\MovingPlatform.cs" />
